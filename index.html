@@ -3,90 +3,330 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>د مهرو کلي ويب پاڼه</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>مهرو کلی</title>
+    <style>
+        /* ټوله صفحه تنظیم */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* د بدن سټایل */
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* سرلیک سټایل */
+        .header {
+            background-color: #3366cc;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            border-bottom: 5px solid #222;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #ffdd44;
+        }
+
+        .header nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        .header nav ul li {
+            margin: 0 15px;
+        }
+
+        .header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .header nav ul li a:hover {
+            color: #ffdd44;
+        }
+
+        /* په زړه پورې برخه */
+        .hero {
+            background-image: linear-gradient(to right, #4a90e2, #0066cc);
+            color: #fff;
+            padding: 100px 20px;
+            text-align: center;
+            background-size: cover;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            background-color: #ff5722;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #ff784e;
+        }
+
+        /* د کلي په اړه برخه */
+        .about {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #fff8e1;
+        }
+
+        .about h2 {
+            font-size: 2rem;
+            color: #3366cc;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 1rem;
+            max-width: 600px;
+            margin: 10px auto;
+            text-align: right;
+            color: #444;
+        }
+    </style>
 </head>
 <body>
-
-    <!-- سرلیک -->
+    <!-- سرلیک برخه -->
     <header class="header">
-        <h1>د مهرو کلي رسمي ويب پاڼه</h1>
+        <h1>مهرو کلی</h1>
         <nav>
             <ul>
-                <li><a href="#about">زموږ په اړه</a></li>
-                <li><a href="#gallery">ګالري</a></li>
+                <li><a href="#home">کور</a></li>
+                <li><a href="#about">زما په اړه</a></li>
                 <li><a href="#services">خدمات</a></li>
-                <li><a href="#contact">اړیکه</a></li>
+                <li><a href="#contact">اړيکه</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- په زړه پورې برخه -->
-    <section class="hero">
-        <h2>په زړه پورې کلي ته ښه راغلاست</h2>
-        <p>دا ويب پاڼه د مهرو کلي د خلکو او ټولنې لپاره جوړه شوې ده.</p>
-        <button class="cta-button">زموږ په اړه نور زده کړئ</button>
+    <section class="hero" id="home">
+        <h2>مهرو ته ښه راغلاست</h2>
+        <p>مهرو یو ښکلی کلی دی چې د ښایسته طبیعت او ښه خلکو څخه ډک دی.</p>
+        <button class="cta-button">زما خدمات وګورئ</button>
     </section>
 
     <!-- د کلي په اړه برخه -->
-    <section id="about" class="about">
-        <h2>زموږ په اړه</h2>
-        <p>مهرو کلی د افغانستان په سېد آباد ولسوالۍ کې موقعیت لري. دا کلی د زړه وړ ښکلا، دوستانه چاپیریال، او یووالي سره شهرت لري. کلی په یووالي او پرمختګ کې لومړيتوب لري، او د ټولنې ټول وګړي د یووالي او په پرمختګ کې همکاري کوي.</p>
-        <p>مهرو کلي کې د ګڼو ښوونځیو، جوماتونو، او بازارونو شتون دی، چې دا ټول د خلکو د ژوند د ښه کولو لپاره جوړ شوي دي. موږ دلته هڅه کوو چې د خپلو خلکو لپاره غوره فرصتونه برابر کړو.</p>
+    <section class="about" id="about">
+        <h2>زما په اړه</h2>
+        <p>سلام! زه د مهرو کلي یو ځوان او پرمختللی شخصیت یم چې د خپل کلی د ښایست او پرمختګ لپاره کار کوم.</p>
+        <p>مهرو یو ښکلی کلی دی چې د طبیعي ښایستونو، ښو خلکو او ښکلو منظرونو څخه ډک دی. زموږ کلي کې هر څوک سره مرسته کوي او موږ ټول په یو ټینګ اړیکې سره تړلي یو.</p>
     </section>
-
-    <!-- ګالري برخه -->
-    <section id="gallery" class="gallery">
-        <h2>د کلي انځورونه</h2>
-        <div class="gallery-grid">
-            <img src="images/image1.jpg" alt="د مهرو کلی">
-            <img src="images/image2.jpg" alt="د کلی ښکلی منظره">
-            <img src="images/image3.jpg" alt="د کلي خلکو سره">
-            <img src="images/image4.jpg" alt="په کلی کې ژوند">
-            <img src="images/image5.jpg" alt="کلی او کرنه">
-            <img src="images/image6.jpg" alt="د کلی ښکلا">
-        </div>
-    </section>
-
-    <!-- خدمات برخه -->
-    <section id="services" class="services">
-        <h2>زموږ خدمات</h2>
-        <div class="service">
-            <h3>د ښوونې خدمتونه</h3>
-            <p>مهرو کلي کې د ښوونځیو او زده کړې د مرکزونو جوړښت شتون لري، چې په خلکو کې د تعلیم او زده کړې په وده کې مرسته کوي.</p>
-        </div>
-        <div class="service">
-            <h3>روغتیايي خدمتونه</h3>
-            <p>کلی کې یو څو روغتونونه شتون لري، چې خلکو ته د روغتیايي خدماتو اسانتیاوې برابروي.</p>
-        </div>
-        <div class="service">
-            <h3>د اوبو او کرنې پروژه</h3>
-            <p>کلی کې د کرنې او باغدارۍ پرمختګ لپاره د اوبو رسونې ځانګړي پروژې ترتیب شوي دي.</p>
+    <!-- د خدماتو برخه -->
+    <section class="services" id="services">
+        <h2>زما خدمات</h2>
+        <div class="service-container">
+            <div class="service">
+                <h3>د ویب ډیزاین</h3>
+                <p>زه د پرمختللې او ښکلي ویب پاڼو جوړولو خدمتونه وړاندیز کوم چې ستاسو اړتیاوې پوره کوي.</p>
+            </div>
+            <div class="service">
+                <h3>مشورتي خدمتونه</h3>
+                <p>تاسو کولای شئ له ما سره مشوره وکړئ، زه هڅه کوم چې ستاسو کار ته لارښوونې وکړم.</p>
+            </div>
+            <div class="service">
+                <h3>اقتصادي مشورې</h3>
+                <p>په اقتصاد کې د پوهې له مخې مشورې ورکول، د کاروبار او پرمختګ لپاره ستاسو سره مرسته کوم.</p>
+            </div>
         </div>
     </section>
 
+    <!-- د کلي ګالري برخه -->
+    <section class="gallery" id="gallery">
+        <h2>د مهرو کلی ګالري</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="image1.jpg" alt="مهرو کلی منظر" />
+                <p>د مهرو ښکلي منظر</p>
+            </div>
+            <div class="gallery-item">
+                <img src="image2.jpg" alt="کلی خلک" />
+                <p>زموږ کلی خلک</p>
+            </div>
+            <div class="gallery-item">
+                <img src="image3.jpg" alt="د کلي طبیعت" />
+                <p>د کلي شنه طبیعت</p>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        /* د خدماتو برخه */
+        .services {
+            padding: 50px 20px;
+            background-color: #e3f2fd;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 2rem;
+            color: #3366cc;
+            margin-bottom: 20px;
+        }
+
+        .service-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .service {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .service h3 {
+            color: #ff5722;
+            margin-bottom: 10px;
+        }
+
+        /* د ګالري برخه */
+        .gallery {
+            padding: 50px 20px;
+            background-color: #fff3e0;
+            text-align: center;
+        }
+
+        .gallery h2 {
+            font-size: 2rem;
+            color: #3366cc;
+            margin-bottom: 20px;
+        }
+
+        .gallery-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .gallery-item {
+            width: 300px;
+            text-align: center;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery-item p {
+            margin-top: 10px;
+            color: #666;
+        }
+    </style>
     <!-- د اړیکې برخه -->
-    <section id="contact" class="contact">
-        <h2>زموږ سره اړیکه ونیسئ</h2>
-        <form action="https://example.com/submit" method="POST">
-            <label for="name">نوم:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">بریښنالیک:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">پیغام:</label>
-            <textarea id="message" name="message" required></textarea>
-            
+    <section class="contact" id="contact">
+        <h2>اړیکه ونیسئ</h2>
+        <p>تاسو کولی شئ په لاندې فورمه کې خپل معلومات ولیکئ او ما سره په اړیکه کې شئ:</p>
+        <form action="submit-form" method="post">
+            <input type="text" name="name" placeholder="ستاسو نوم" required>
+            <input type="email" name="email" placeholder="ستاسو ایمیل" required>
+            <textarea name="message" placeholder="ستاسو پیغام" required></textarea>
             <button type="submit">پیغام ولیږئ</button>
         </form>
     </section>
 
-    <!-- پايښت برخه -->
+    <!-- د فوټر برخه -->
     <footer class="footer">
-        <p>© 2024 د مهرو کلی | ټول حقونه خوندي دي</p>
-        <p>ستاسو لخوا مرسته شوي چې کلی پرمختګ وکړي او یو په زړه پورې ځای جوړ شي.</p>
+        <p>© 2024 مهرو کلی | ټول حقونه خوندي دي</p>
+        <p>اړیکې: <a href="mailto:habibrahmangauhar321@gmail.com">habibrahmangauhar321@gmail.com</a></p>
     </footer>
+
+    <style>
+        /* د اړیکې برخه */
+        .contact {
+            padding: 50px 20px;
+            background-color: #e8f5e9;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2rem;
+            color: #3366cc;
+            margin-bottom: 20px;
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .contact button {
+            padding: 10px 20px;
+            background-color: #3366cc;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact button:hover {
+            background-color: #264d73;
+        }
+
+        /* د فوټر برخه */
+        .footer {
+            padding: 20px;
+            background-color: #1a237e;
+            color: #fff;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+
+        .footer a {
+            color: #ffeb3b;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 
 </body>
 </html>
