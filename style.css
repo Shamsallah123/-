@@ -19,11 +19,13 @@ body {
     color: #fff;
     padding: 15px 0;
     text-align: center;
+    border-bottom: 5px solid #222;
 }
 
 .header h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
+    color: #ffdd44;
 }
 
 .header nav ul {
@@ -43,45 +45,47 @@ body {
 }
 
 .header nav ul li a:hover {
-    text-decoration: underline;
+    color: #ffdd44;
 }
 
 /* په زړه پورې برخه */
 .hero {
-    background-color: #5a9;
+    background-image: linear-gradient(to right, #4a90e2, #0066cc);
     color: #fff;
     padding: 100px 20px;
     text-align: center;
+    background-size: cover;
 }
 
 .hero h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 20px;
 }
 
 .cta-button {
-    background-color: #333;
+    background-color: #ff5722;
     color: #fff;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     font-size: 1rem;
+    border-radius: 5px;
 }
 
 .cta-button:hover {
-    background-color: #555;
+    background-color: #ff784e;
 }
 
 /* د کلي په اړه برخه */
 .about {
     padding: 50px 20px;
     text-align: center;
-    background-color: #eef;
+    background-color: #fff8e1;
 }
 
 .about h2 {
@@ -95,12 +99,14 @@ body {
     max-width: 600px;
     margin: 10px auto;
     text-align: right;
+    color: #444;
 }
 
 /* ګالري برخه */
 .gallery {
     padding: 50px 20px;
     text-align: center;
+    background-color: #e1f7d5;
 }
 
 .gallery h2 {
@@ -118,12 +124,13 @@ body {
 .gallery-grid img {
     width: 100%;
     border-radius: 10px;
+    border: 2px solid #ccc;
 }
 
 /* خدمات برخه */
 .services {
     padding: 50px 20px;
-    background-color: #eef;
+    background-color: #fce4ec;
     text-align: center;
 }
 
@@ -135,10 +142,11 @@ body {
 
 .service {
     margin-bottom: 20px;
+    color: #555;
 }
 
 .service h3 {
-    color: #555;
+    color: #d81b60;
     font-size: 1.5rem;
 }
 
@@ -151,11 +159,12 @@ body {
 .contact {
     padding: 50px 20px;
     text-align: center;
+    background-color: #e0f7fa;
 }
 
 .contact h2 {
     font-size: 2rem;
-    color: #3366cc;
+    color: #00796b;
     margin-bottom: 20px;
 }
 
@@ -169,6 +178,7 @@ body {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
+    color: #004d40;
 }
 
 .contact input, .contact textarea {
@@ -180,16 +190,17 @@ body {
 }
 
 .contact button {
-    background-color: #3366cc;
+    background-color: #00796b;
     color: #fff;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     font-size: 1rem;
+    border-radius: 5px;
 }
 
 .contact button:hover {
-    background-color: #5a9;
+    background-color: #004d40;
 }
 
 /* پايښت برخه */
@@ -204,4 +215,5 @@ body {
 .footer p {
     font-size: 1rem;
     margin: 5px 0;
+    color: #ffdd44;
 }
