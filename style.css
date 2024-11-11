@@ -1,84 +1,207 @@
-body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f9f9f9;
+/* ټوله صفحه تنظیم */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
-.hero {
-    background: url('images/village_background.jpg') no-repeat center center/cover;
-    color: white;
+/* د بدن سټایل */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* سرلیک سټایل */
+.header {
+    background-color: #3366cc;
+    color: #fff;
+    padding: 15px 0;
     text-align: center;
-    padding: 100px 20px;
 }
 
-.navbar {
-    background-color: #4CAF50;
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header nav ul {
+    list-style: none;
     display: flex;
     justify-content: center;
-    padding: 10px 0;
 }
 
-.navbar a {
-    color: white;
+.header nav ul li {
     margin: 0 15px;
+}
+
+.header nav ul li a {
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
 
-.section {
-    padding: 40px 20px;
+.header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* په زړه پورې برخه */
+.hero {
+    background-color: #5a9;
+    color: #fff;
+    padding: 100px 20px;
     text-align: center;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+/* د کلي په اړه برخه */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #eef;
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #3366cc;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 10px auto;
+    text-align: right;
+}
+
+/* ګالري برخه */
+.gallery {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 2rem;
+    color: #3366cc;
+    margin-bottom: 20px;
 }
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
 }
 
 .gallery-grid img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
-.news-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin: 20px auto;
-    max-width: 600px;
-    text-align: left;
+/* خدمات برخه */
+.services {
+    padding: 50px 20px;
+    background-color: #eef;
+    text-align: center;
 }
 
-.news-item h3 {
-    color: #4CAF50;
+.services h2 {
+    font-size: 2rem;
+    color: #3366cc;
+    margin-bottom: 20px;
 }
 
-.contact-form form {
-    display: flex;
-    flex-direction: column;
-    max-width: 600px;
+.service {
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    color: #555;
+    font-size: 1.5rem;
+}
+
+.service p {
+    font-size: 1rem;
+    text-align: right;
+}
+
+/* اړیکه برخه */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    color: #3366cc;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 500px;
     margin: auto;
+    text-align: right;
 }
 
-.contact-form label {
-    margin: 10px 0 5px;
+.contact label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
-.contact-form input, .contact-form textarea {
+.contact input, .contact textarea {
+    width: 100%;
     padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
-.contact-form button {
-    margin-top: 15px;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
+.contact button {
+    background-color: #3366cc;
+    color: #fff;
+    padding: 10px 20px;
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
+}
+
+.contact button:hover {
+    background-color: #5a9;
+}
+
+/* پايښت برخه */
+.footer {
+    background-color: #3366cc;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+.footer p {
+    font-size: 1rem;
+    margin: 5px 0;
 }
