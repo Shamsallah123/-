@@ -3,87 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>د مهرو کلی - یو ښکلی کلی</title>
+    <title>د مهرو کلي ويب پاڼه</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
 </head>
 <body>
 
-    <header class="hero">
-        <h1>د مهرو کلي ته ښه راغلاست</h1>
-        <p>د افغانستان د زړه ښکلا</p>
-        <a href="#about" class="button">د کلي په اړه ولولئ</a>
+    <!-- سرلیک -->
+    <header class="header">
+        <h1>د مهرو کلي رسمي ويب پاڼه</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">زموږ په اړه</a></li>
+                <li><a href="#gallery">ګالري</a></li>
+                <li><a href="#services">خدمات</a></li>
+                <li><a href="#contact">اړیکه</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav class="navbar">
-        <a href="#about">په اړه</a>
-        <a href="#history">تاریخ</a>
-        <a href="#gallery">انځورونه</a>
-        <a href="#news">خبرونه</a>
-        <a href="#map">نقشه</a>
-        <a href="#contact">اړیکې</a>
-    </nav>
-
-    <section id="about" class="section">
-        <h2>د کلي په اړه</h2>
-        <p>مهرو یو ښکلی کلی دی چې د سیداباد ولسوالۍ په مربوطاتو کې موقعیت لري. دلته خلک په زراعت او مالداری بوخت دي...</p>
+    <!-- په زړه پورې برخه -->
+    <section class="hero">
+        <h2>په زړه پورې کلي ته ښه راغلاست</h2>
+        <p>دا ويب پاڼه د مهرو کلي د خلکو او ټولنې لپاره جوړه شوې ده.</p>
+        <button class="cta-button">زموږ په اړه نور زده کړئ</button>
     </section>
 
-    <section id="history" class="section">
-        <h2>تاریخ</h2>
-        <p>د مهرو کلي تاریخي میراث او قدیم کلتوري ارزښتونه لري. دلته خلک د خپلو دودیزو مراسمو له لارې خپل کلتور خوندي ساتي...</p>
+    <!-- د کلي په اړه برخه -->
+    <section id="about" class="about">
+        <h2>زموږ په اړه</h2>
+        <p>مهرو کلی د افغانستان په سېد آباد ولسوالۍ کې موقعیت لري. دا کلی د زړه وړ ښکلا، دوستانه چاپیریال، او یووالي سره شهرت لري. کلی په یووالي او پرمختګ کې لومړيتوب لري، او د ټولنې ټول وګړي د یووالي او په پرمختګ کې همکاري کوي.</p>
+        <p>مهرو کلي کې د ګڼو ښوونځیو، جوماتونو، او بازارونو شتون دی، چې دا ټول د خلکو د ژوند د ښه کولو لپاره جوړ شوي دي. موږ دلته هڅه کوو چې د خپلو خلکو لپاره غوره فرصتونه برابر کړو.</p>
     </section>
 
-    <section id="gallery" class="section gallery">
+    <!-- ګالري برخه -->
+    <section id="gallery" class="gallery">
         <h2>د کلي انځورونه</h2>
         <div class="gallery-grid">
-            <img src="images/image1.jpg" alt="انځور ۱">
-            <img src="images/image2.jpg" alt="انځور ۲">
-            <img src="images/image3.jpg" alt="انځور ۳">
-            <img src="images/image4.jpg" alt="انځور ۴">
+            <img src="images/image1.jpg" alt="د مهرو کلی">
+            <img src="images/image2.jpg" alt="د کلی ښکلی منظره">
+            <img src="images/image3.jpg" alt="د کلي خلکو سره">
+            <img src="images/image4.jpg" alt="په کلی کې ژوند">
+            <img src="images/image5.jpg" alt="کلی او کرنه">
+            <img src="images/image6.jpg" alt="د کلی ښکلا">
         </div>
     </section>
 
-    <section id="news" class="section">
-        <h2>خبرونه او تازه معلومات</h2>
-        <div class="news-container">
-            <div class="news-item">
-                <h3>په کلي کې نوې ښوونځی جوړ شو</h3>
-                <p>د کلی اوسېدونکو په مرسته د نوې ښوونځي بنسټ اېښودل شوی...</p>
-            </div>
-            <div class="news-item">
-                <h3>د کرنې پروژې</h3>
-                <p>کروندګرانو ته نوی تخمونه او وسایل ورکړل شول...</p>
-            </div>
+    <!-- خدمات برخه -->
+    <section id="services" class="services">
+        <h2>زموږ خدمات</h2>
+        <div class="service">
+            <h3>د ښوونې خدمتونه</h3>
+            <p>مهرو کلي کې د ښوونځیو او زده کړې د مرکزونو جوړښت شتون لري، چې په خلکو کې د تعلیم او زده کړې په وده کې مرسته کوي.</p>
+        </div>
+        <div class="service">
+            <h3>روغتیايي خدمتونه</h3>
+            <p>کلی کې یو څو روغتونونه شتون لري، چې خلکو ته د روغتیايي خدماتو اسانتیاوې برابروي.</p>
+        </div>
+        <div class="service">
+            <h3>د اوبو او کرنې پروژه</h3>
+            <p>کلی کې د کرنې او باغدارۍ پرمختګ لپاره د اوبو رسونې ځانګړي پروژې ترتیب شوي دي.</p>
         </div>
     </section>
 
-    <section id="map" class="section">
-        <h2>د مهرو کلي نقشه</h2>
-        <div class="map-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.6931208764154!2d-118.3552761847826!3d34.10219598059533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bea6e659bb2f%3A0x29a2b8c6bcb9c751!2sHollywood%20Sign!5e0!3m2!1sen!2sus!4v1600110389377!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-    </section>
-
-    <section id="contact" class="section contact-form">
-        <h2>اړیکې</h2>
-        <p>که تاسو کومه پوښتنه لرئ، کولی شئ له موږ سره اړیکه ونیسئ.</p>
-        <form id="contactForm">
+    <!-- د اړیکې برخه -->
+    <section id="contact" class="contact">
+        <h2>زموږ سره اړیکه ونیسئ</h2>
+        <form action="https://example.com/submit" method="POST">
             <label for="name">نوم:</label>
             <input type="text" id="name" name="name" required>
             
-            <label for="email">ایمیل:</label>
+            <label for="email">بریښنالیک:</label>
             <input type="email" id="email" name="email" required>
             
             <label for="message">پیغام:</label>
             <textarea id="message" name="message" required></textarea>
             
-            <button type="submit">استول</button>
+            <button type="submit">پیغام ولیږئ</button>
         </form>
     </section>
 
-    <footer>
+    <!-- پايښت برخه -->
+    <footer class="footer">
         <p>© 2024 د مهرو کلی | ټول حقونه خوندي دي</p>
+        <p>ستاسو لخوا مرسته شوي چې کلی پرمختګ وکړي او یو په زړه پورې ځای جوړ شي.</p>
     </footer>
 
 </body>
