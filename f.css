@@ -1,0 +1,66 @@
+/* د ټول بدن لپاره سټایل */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #f3e5f5, #e1bee7);
+    color: #4a148c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+/* اصلي کانټینر لپاره */
+.container {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #8e24aa;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* سرلیکونه */
+header, footer {
+    background-color: #8e24aa;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* اصلي عنوان */
+h1 {
+    font-size: 2.5em;
+    color: #6a1b9a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+
+/* کوچني سرلیکونه */
+h2 {
+    color: #7b1fa2;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* متن لپاره */
+p {
+    color: #4a148c;
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+/* لینکونو لپاره */
+a {
+    color: #d500f9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #9c27b0;
+}

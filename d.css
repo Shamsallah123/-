@@ -1,0 +1,83 @@
+/* د عمومي پاڼې ترتیبات */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #444;
+    background: linear-gradient(to right, #e0f7fa, #80deea); /* شالید لپاره رنګین */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #00796b;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center; /* متن په منځ کې */
+}
+
+/* د هیدر یا سرلیک برخه */
+header {
+    padding: 10px 0;
+    background-color: #00796b;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2.4em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #e0f7fa;
+}
+
+/* د هر سیکشن بڼه */
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #00796b;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #80deea;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #444;
+    line-height: 1.8;
+}
+
+/* د لینکونو بڼه */
+a {
+    color: #00796b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #004d40;
+    text-decoration: underline;
+}
+
+/* د فوتر یا پای ټکی برخه */
+footer {
+    padding: 15px 0;
+    margin-top: 20px;
+    background-color: #00796b;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 0.9em;
+}
