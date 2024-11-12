@@ -1,1 +1,33 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://shamsallah123.github.io/mahroo/</loc>
+        <lastmod>2024-11-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://shamsallah123.github.io/mahroo/about_me_detail.html</loc>
+        <lastmod>2024-11-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://shamsallah123.github.io/mahroo/consulting_detail.html</loc>
+        <lastmod>2024-11-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://shamsallah123.github.io/mahroo/economic_advice_detail.html</loc>
+        <lastmod>2024-11-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://shamsallah123.github.io/mahroo/web_design_detail.html</loc>
+        <lastmod>2024-11-12</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+</urlset>
