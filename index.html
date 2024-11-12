@@ -4,111 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>مهرو کلی</title>
-    <style>
-        /* ټوله صفحه تنظیم */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-
-        /* د بدن سټایل */
-        body {
-            background-color: #f4f4f9;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        /* سرلیک سټایل */
-        .header {
-            background-color: #3366cc;
-            color: #fff;
-            padding: 15px 0;
-            text-align: center;
-            border-bottom: 5px solid #222;
-        }
-
-        .header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            color: #ffdd44;
-        }
-
-        .header nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-        }
-
-        .header nav ul li {
-            margin: 0 15px;
-        }
-
-        .header nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .header nav ul li a:hover {
-            color: #ffdd44;
-        }
-
-        /* په زړه پورې برخه */
-        .hero {
-            background-image: linear-gradient(to right, #4a90e2, #0066cc);
-            color: #fff;
-            padding: 100px 20px;
-            text-align: center;
-            background-size: cover;
-        }
-
-        .hero h2 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-        }
-
-        .hero p {
-            font-size: 1.3rem;
-            margin-bottom: 20px;
-        }
-
-        .cta-button {
-            background-color: #ff5722;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            font-size: 1rem;
-            border-radius: 5px;
-        }
-
-        .cta-button:hover {
-            background-color: #ff784e;
-        }
-
-        /* د کلي په اړه برخه */
-        .about {
-            padding: 50px 20px;
-            text-align: center;
-            background-color: #fff8e1;
-        }
-
-        .about h2 {
-            font-size: 2rem;
-            color: #3366cc;
-            margin-bottom: 20px;
-        }
-
-        .about p {
-            font-size: 1rem;
-            max-width: 600px;
-            margin: 10px auto;
-            text-align: right;
-            color: #444;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- سرلیک برخه -->
@@ -127,206 +23,48 @@
     <!-- په زړه پورې برخه -->
     <section class="hero" id="home">
         <h2>مهرو ته ښه راغلاست</h2>
-        <p>مهرو یو ښکلی کلی دی چې د ښایسته طبیعت او ښه خلکو څخه ډک دی.</p>
-        <button class="cta-button">زما خدمات وګورئ</button>
+        <p>مهرو یو ښکلی کلی دی چې د ښایسته طبیعت او ښه خلکو څخه ډک دی. 
+            <a href="web_design_detail.html" target="_blank">زيات پوه شئ</a>
+        </p>
     </section>
 
     <!-- د کلي په اړه برخه -->
     <section class="about" id="about">
         <h2>زما په اړه</h2>
-        <p>سلام! زه شمس الله سوبمن د مهرو کلي یو ځوان او پرمختلونکی شخصیت یم چې د خپل کلی د ښایست او پرمختګ لپاره کار کوم.</p>
-        <p>مهرو یو ښکلی کلی دی چې د طبیعي ښایستونو، ښو خلکو او ښکلو منظرونو څخه ډک دی. زموږ کلي کې هر څوک سره مرسته کوي او موږ ټول په یو ټینګ اړیکې سره تړلي یو.</p>
+        <p>سلام! زه شمس الله سوبمن د مهرو کلي یو ځوان او پرمختلونکی شخصیت یم چې د خپل کلی د ښایست او پرمختګ لپاره کار کوم.
+            <a href="about_me_detail.html" target="_blank">زيات پوه شئ</a>
+        </p>
     </section>
+
     <!-- د خدماتو برخه -->
     <section class="services" id="services">
         <h2>زما خدمات</h2>
         <div class="service-container">
             <div class="service">
                 <h3>د ویب ډیزاین</h3>
-                <p>زه د پرمختللې او ښکلي ویب پاڼو جوړولو خدمتونه وړاندیز کوم چې ستاسو اړتیاوې پوره کوي.</p>
+                <p>زه د پرمختللې او ښکلي ویب پاڼو جوړولو خدمتونه وړاندیز کوم چې ستاسو اړتیاوې پوره کوي.
+                    <a href="web_design_detail.html" target="_blank">زيات پوه شئ</a>
+                </p>
             </div>
             <div class="service">
                 <h3>مشورتي خدمتونه</h3>
-                <p>تاسو کولای شئ له ما سره مشوره وکړئ، زه هڅه کوم چې ستاسو کار ته لارښوونې وکړم.</p>
+                <p>تاسو کولای شئ له ما سره مشوره وکړئ، زه هڅه کوم چې ستاسو کار ته لارښوونې وکړم.
+                    <a href="consulting_detail.html" target="_blank">زيات پوه شئ</a>
+                </p>
             </div>
             <div class="service">
                 <h3>اقتصادي مشورې</h3>
-                <p>په اقتصاد کې د پوهې له مخې مشورې ورکول، د کاروبار او پرمختګ لپاره ستاسو سره مرسته کوم.</p>
+                <p>په اقتصاد کې د پوهې له مخې مشورې ورکول، د کاروبار او پرمختګ لپاره ستاسو سره مرسته کوم.
+                    <a href="economic_advice_detail.html" target="_blank">زيات پوه شئ</a>
+                </p>
             </div>
         </div>
     </section>
 
-    <!-- د کلي ګالري برخه -->
-    <section class="gallery" id="gallery">
-        <h2>د مهرو کلی ګالري</h2>
-        <div class="gallery-container">
-            <div class="gallery-item">
-                <img src="۲۰۲۳۰۸۱۸_۰۵۳۲۲۰.jpg" alt="مهرو کلی منظر" />
-                <p>د مهرو ښکلي منظر</p>
-            </div>
-            <div class="gallery-item">
-                <img src="image2.jpg" alt="کلی خلک" />
-                <p>زموږ کلی خلک</p>
-            </div>
-            <div class="gallery-item">
-                <img src="image3.jpg" alt="د کلي طبیعت" />
-                <p>د کلي شنه طبیعت</p>
-            </div>
-        </div>
-    </section>
-
-    <style>
-        /* د خدماتو برخه */
-        .services {
-            padding: 50px 20px;
-            background-color: #e3f2fd;
-            text-align: center;
-        }
-
-        .services h2 {
-            font-size: 2rem;
-            color: #3366cc;
-            margin-bottom: 20px;
-        }
-
-        .service-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        .service {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            width: 300px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .service h3 {
-            color: #ff5722;
-            margin-bottom: 10px;
-        }
-
-        /* د ګالري برخه */
-        .gallery {
-            padding: 50px 20px;
-            background-color: #fff3e0;
-            text-align: center;
-        }
-
-        .gallery h2 {
-            font-size: 2rem;
-            color: #3366cc;
-            margin-bottom: 20px;
-        }
-
-        .gallery-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        .gallery-item {
-            width: 300px;
-            text-align: center;
-        }
-
-        .gallery-item img {
-            width: 100%;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .gallery-item p {
-            margin-top: 10px;
-            color: #666;
-        }
-    </style>
     <!-- د اړیکې برخه -->
-    <section class="contact" id="contact">
-        <h2>اړیکه ونیسئ</h2>
-        <p>تاسو کولی شئ په لاندې فورمه کې خپل معلومات ولیکئ او ما سره په اړیکه کې شئ:</p>
-        <form action="submit-form" method="post">
-            <input type="text" name="name" placeholder="ستاسو نوم" required>
-            <input type="email" name="email" placeholder="ستاسو ایمیل" required>
-            <textarea name="message" placeholder="ستاسو پیغام" required></textarea>
-            <button type="submit">پیغام ولیږئ</button>
-        </form>
-    </section>
-
-    <!-- د فوټر برخه -->
     <footer class="footer">
         <p>© 2024 مهرو کلی | ټول حقونه خوندي دي</p>
-        <p>اړیکې: <a href="mailto: sobmanlalay@gmail.com">sobmanlalay@gmail.com</a></p>
+        <p>اړیکې: <a href="mailto:sobmanlalay@gmail.com">sobmanlalay@gmail.com</a></p>
     </footer>
-
-    <style>
-        /* د اړیکې برخه */
-        .contact {
-            padding: 50px 20px;
-            background-color: #e8f5e9;
-            text-align: center;
-        }
-
-        .contact h2 {
-            font-size: 2rem;
-            color: #3366cc;
-            margin-bottom: 20px;
-        }
-
-        .contact form {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 15px;
-            max-width: 400px;
-            margin: 0 auto;
-        }
-
-        .contact input, .contact textarea {
-            width: 100%;
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
-
-        .contact button {
-            padding: 10px 20px;
-            background-color: #3366cc;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .contact button:hover {
-            background-color: #264d73;
-        }
-
-        /* د فوټر برخه */
-        .footer {
-            padding: 20px;
-            background-color: #1a237e;
-            color: #fff;
-            text-align: center;
-        }
-
-        .footer p {
-            margin: 5px 0;
-        }
-
-        .footer a {
-            color: #ffeb3b;
-            text-decoration: none;
-        }
-
-        .footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
-
 </body>
 </html>
